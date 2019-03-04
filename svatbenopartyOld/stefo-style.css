@@ -1,0 +1,52 @@
+body {
+    background-image:  url("IMG/body-img-stefo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#h1Index {
+    color: white;
+    opacity: 0.8;
+    margin-top: 500px;
+}
+
+
+#h2Index {
+    color: white;
+    opacity: 0.9;
+}
+.contactsText {
+    color: white;
+    opacity: 0.8;
+    font-size: 3vw;
+}
+#downLine {
+    border: 0;
+    height: 2px;
+    width: 80%;
+    background: #333;
+    background-image: linear-gradient(to right, darkgoldenrod, #333, darkgoldenrod);
+}
+.alignleft {
+    float: left;
+    color: black;
+}
+.alignright {
+    float: right;
+    color: black;
+}
+#contactsDiv {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #333;
+    opacity: 0.7;
+}
+.navbar-brand {
+    animation: blinker 2s linear infinite;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }

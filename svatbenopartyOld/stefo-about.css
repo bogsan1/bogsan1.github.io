@@ -1,0 +1,36 @@
+body {
+    background-color: gray;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#h5Text {
+    font-size: 2vw;
+    color: black;
+    
+}
+
+#mainText {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    size: 3vw;
+}
+
+#stefoImg {
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+.wrapper {
+    width: 100%;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    
+    
+}
